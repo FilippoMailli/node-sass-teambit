@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Encode Sans Semi Expanded", sans-serif;
 }
 
 .clearfix::after {
@@ -14,7 +15,85 @@
 
 /* COMMON (ELEMENTI COMUNI IN TUTTI LE PARTI) */
 
+.link-hover {
+  transition: 0.4s;
+}
+
+.link-hover:hover {
+  color: #30488f;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: none;
+  background-color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 /* HEADER */
+
+header {
+  height: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #58402c;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+header nav {
+  height: 100%;
+  border-bottom: 1px solid #bdb5af;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .logo-navbar {
+  width: 20%;
+  height: 35%;
+  background-image: url("https://teambit.io/wp-content/themes/teambeat/img/logo.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+header nav .logo-navbar:hover {
+  cursor: pointer;
+}
+
+header nav .navbar-right {
+  height: 50%;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .navbar-right div:hover {
+  cursor: pointer;
+}
+
+header nav .navbar-right div button {
+  border: 1px solid #30488f;
+  color: #30488f;
+  font-weight: 600;
+}
+
+header nav .navbar-right div button:hover {
+  color: white;
+  background-color: #30488f;
+}
+
+header nav .navbar-right div button img {
+  width: 15px;
+  transform: translate(-20%, 20%);
+}
 
 /* MAIN */
 
