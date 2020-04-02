@@ -129,6 +129,12 @@ main {
   color: #58402c;
 }
 
+main h2 {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 50px;
+}
+
 main .container {
   padding-top: 200px;
   margin: 0 auto;
@@ -211,11 +217,6 @@ main .main-text {
   width: 60%;
 }
 
-main .main-text h2 {
-  font-size: 26px;
-  font-weight: 600;
-}
-
 main .main-img {
   display: flex;
   justify-content: center;
@@ -243,6 +244,88 @@ main .main-img .allinea-img img {
 
 main .main-img #img-center img {
   max-height: none;
+}
+
+main .container-whites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+main .container-whites .container-white-left {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+
+main .container-whites .container-white-left .container-white-text {
+  max-width: 70%;
+  align-self: end;
+  justify-content: space-between;
+}
+
+main .container-whites .container-white-left .container-white-text img {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+main .container-whites .container-white-left .container-white-img img {
+  transform: translateX(-30%);
+}
+
+main .container-whites .container-white-right {
+  max-width: 50%;
+}
+
+main .container-whites .container-white-right .container-white-text {
+  max-width: 70%;
+  justify-content: space-between;
+}
+
+main .container-whites .container-white-right .container-white-text img {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+main .container-whites img {
+  max-width: 140%;
+}
+
+main .container-whites .container-white-text img {
+  max-width: 50%;
+}
+
+main .container-whites .container-white-dim {
+  height: 650px;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main .container-whites .container-white-img {
+  display: block;
+}
+
+main .container-whites p {
+  line-height: 35px;
+  font-size: 20px;
+}
+
+main .container-whites span {
+  font-size: 20px;
+  color: #30488f;
+  transition: 0.3s;
+}
+
+main .container-whites span i {
+  margin-left: 10px;
+}
+
+main .container-whites span:hover {
+  color: #233569;
+  cursor: pointer;
 }
 
 /* FOOTER */
