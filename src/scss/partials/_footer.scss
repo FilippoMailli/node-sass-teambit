@@ -1,0 +1,67 @@
+footer {
+    color: $primary_color;
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .logo-left{
+            display: flex;
+            align-items: flex-start;
+            width: $width_footer_list * 3;
+            .logo-footer{
+                width: 100px;
+                height: 100px;
+                background-image: url('https://teambit.io/wp-content/themes/teambeat/img/logo-small.svg');
+                background-position: left;
+                background-repeat: no-repeat;
+                background-size: contain;
+                transform: translateY(-12.5px);
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            p {
+                margin-left: 30px;
+                margin-right: 135px;
+                font-size: 18px;
+                font-weight: 600;
+                span {
+                    color: $btn_color_primary;
+                    &:hover {
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                }
+
+            }
+        }
+        .lista-contatti {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .lista {
+                max-width: $width_footer_list * 1.5;
+                padding-left: 10px;
+                font-size: 12px;
+                line-height: 30px;
+                font-weight: 500;
+                li:first-child {
+                    font-size: 14px;
+                    font-weight: 600;
+                    padding-bottom: 30px;
+                }
+                ul {
+                    li {
+                        list-style-type: none;
+                        transition: 0.3s;
+                        &:hover {
+                            cursor: pointer;
+                            color: $btn_color_primary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

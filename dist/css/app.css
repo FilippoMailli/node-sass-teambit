@@ -410,3 +410,80 @@ main .containertable .contatti-tabella .contattis .thinspan {
 
 /* FOOTER */
 
+footer {
+  color: #58402c;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container .logo-left {
+  display: flex;
+  align-items: flex-start;
+  width: 42.8571428571%;
+}
+
+footer .container .logo-left .logo-footer {
+  width: 100px;
+  height: 100px;
+  background-image: url("https://teambit.io/wp-content/themes/teambeat/img/logo-small.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: translateY(-12.5px);
+}
+
+footer .container .logo-left .logo-footer:hover {
+  cursor: pointer;
+}
+
+footer .container .logo-left p {
+  margin-left: 30px;
+  margin-right: 135px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+footer .container .logo-left p span {
+  color: #30488f;
+}
+
+footer .container .logo-left p span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer .container .lista-contatti {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer .container .lista-contatti .lista {
+  max-width: 21.4285714286%;
+  padding-left: 10px;
+  font-size: 12px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+footer .container .lista-contatti .lista li:first-child {
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+footer .container .lista-contatti .lista ul li {
+  list-style-type: none;
+  transition: 0.3s;
+}
+
+footer .container .lista-contatti .lista ul li:hover {
+  cursor: pointer;
+  color: #30488f;
+}
+
