@@ -1,6 +1,7 @@
 main {
     color: $primary_color;
     .container {
+        padding-top: 200px;
         button {
             transition: 0.3s;
             &:hover {

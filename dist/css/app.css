@@ -66,17 +66,22 @@ button img {
 /* HEADER */
 
 header {
+  position: fixed;
   height: 80px;
-  max-width: 1200px;
+  width: 100vw;
   margin: 0 auto;
   color: #58402c;
   font-weight: 600;
   font-size: 12px;
+  border-bottom: 1px solid #bdb5af;
+  background-color: white;
+  z-index: 9999;
 }
 
 header nav {
   height: 100%;
-  border-bottom: 1px solid #bdb5af;
+  width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -125,6 +130,7 @@ main {
 }
 
 main .container {
+  padding-top: 200px;
   margin: 0 auto;
 }
 
