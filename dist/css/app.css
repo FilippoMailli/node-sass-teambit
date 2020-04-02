@@ -129,6 +129,28 @@ main {
   color: #58402c;
 }
 
+main .first-container-left-text h1 {
+  line-height: 60px;
+  font-size: 40px;
+  padding-right: 180px;
+}
+
+main .first-container-left-text h3 {
+  font-weight: 500;
+  line-height: 40px;
+  padding: 60px 200px 60px 0;
+}
+
+main .first-container-left-buttons {
+  padding-bottom: 30px;
+}
+
+main .first-container-left-buttons span {
+  font-weight: 200;
+  font-size: 12px;
+  padding: 0 20px;
+}
+
 main h2 {
   font-size: 26px;
   font-weight: 600;
@@ -158,28 +180,6 @@ main .container .first-container-left span:hover {
 
 main .container .first-container-left span i {
   padding-left: 5px;
-}
-
-main .container .first-container-left .first-container-left-text h1 {
-  line-height: 60px;
-  font-size: 40px;
-  padding-right: 180px;
-}
-
-main .container .first-container-left .first-container-left-text h3 {
-  font-weight: 500;
-  line-height: 40px;
-  padding: 60px 200px 60px 0;
-}
-
-main .container .first-container-left .first-container-left-buttons {
-  padding-bottom: 30px;
-}
-
-main .container .first-container-left .first-container-left-buttons span {
-  font-weight: 200;
-  font-size: 12px;
-  padding: 0 20px;
 }
 
 main .container button {
@@ -326,6 +326,86 @@ main .container-whites span i {
 main .container-whites span:hover {
   color: #233569;
   cursor: pointer;
+}
+
+main .container-maxwidth {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+main .final-container h1 {
+  padding: 0;
+  margin: 30px;
+}
+
+main .containertable {
+  position: relative;
+  font-size: 16px;
+  margin-bottom: 25px;
+  background-color: white;
+  border: 1px solid #bdb5af;
+  border-radius: 10px;
+  max-width: 628px;
+  margin: 35px auto;
+  padding: 20px 20px 20px 40px;
+  text-align: left;
+}
+
+main .containertable .virgolettato {
+  width: 37px;
+  height: 39px;
+  position: absolute;
+  top: -23px;
+  left: -1px;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+
+main .containertable p {
+  font-size: 1rem;
+  line-height: 2;
+  font-weight: 500;
+}
+
+main .containertable .contatti-tabella {
+  display: flex;
+}
+
+main .containertable .contatti-tabella .foto {
+  display: flex;
+  align-items: flex-start;
+  max-width: 20%;
+}
+
+main .containertable .contatti-tabella .foto img {
+  width: 50%;
+  padding: 10px;
+}
+
+main .containertable .contatti-tabella .contattis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .containertable .contatti-tabella .contattis .bluespan {
+  font-size: 12px;
+  color: #30488f;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+main .containertable .contatti-tabella .contattis .bluespan:hover {
+  color: #233569;
+}
+
+main .containertable .contatti-tabella .contattis .thinspan {
+  font-size: 10px;
+  font-weight: 400;
 }
 
 /* FOOTER */
