@@ -15,4 +15,31 @@ button {
     &:hover {
         cursor: pointer;
     }
+    img {
+        width: 15px;
+        transform: translate(-20%, 20%);
+    }
+}
+
+.container {
+    padding: 100px 0;
+    max-width: 1200px;
+    display: flex;
+}
+
+.paddings {
+    padding-right: 0 50px 0 0;
+}
+
+#linea-divisoria {
+    border-bottom: $border_bottom;
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.distanzia {
+    padding-top: 100px;
 }

@@ -1,0 +1,103 @@
+main {
+    color: $primary_color;
+    .container {
+        button {
+            transition: 0.3s;
+            &:hover {
+                background-color: #233569;
+            }
+        }
+
+        margin: 0 auto;
+        .first-container-left {
+            span {
+                font-weight: 400;
+                &:hover{
+                    cursor: pointer;
+                }
+                i {
+                    padding-left: 5px;
+                }
+            }
+            .first-container-left-text {
+                h1 {
+                    line-height: 60px;
+                    font-size: 40px;
+                    padding-right: 180px;
+                }
+                h3 {
+                    font-weight: 500;
+                    line-height: 40px;
+                    padding: 60px 200px 60px 0;
+                }
+            }
+            .first-container-left-buttons {
+                padding-bottom: 30px;
+                span {
+                    font-weight: 200;
+                    font-size: 12px;
+                    padding: 0 20px;
+                }
+            }
+        }
+        button {
+            background-color: $btn_color_primary;
+            color: white;
+        }
+    }
+    .first-container-right {
+        width: 80%;
+        img {
+            width: 100%;
+            background-size: contain;
+        }
+    }
+    .first {
+        justify-content: space-between;
+    }
+    .pink-bg {
+        background-color: $background_color;
+        .container {
+            flex-direction: column;
+        }
+    }
+    .main-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        width: 60%;
+        h2 {
+            font-size: 26px;
+            font-weight: 600;
+        }
+    }
+    .main-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 80%;
+        padding: 80px 0;
+        margin: 0 auto;
+        .allinea-img {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            width: $card_width;
+            text-align: center;
+            img {
+                max-width: 80%;
+                margin-bottom: 20px;
+                max-height: 120px;
+            }
+        }
+        #img-center {
+            img {
+                max-height: none;
+            }
+        }
+    }
+}

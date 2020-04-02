@@ -35,6 +35,34 @@ button:hover {
   cursor: pointer;
 }
 
+button img {
+  width: 15px;
+  transform: translate(-20%, 20%);
+}
+
+.container {
+  padding: 100px 0;
+  max-width: 1200px;
+  display: flex;
+}
+
+.paddings {
+  padding-right: 0 50px 0 0;
+}
+
+#linea-divisoria {
+  border-bottom: 1px solid #bdb5af;
+  margin-left: 0;
+  margin-right: 0;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.distanzia {
+  padding-top: 100px;
+}
+
 /* HEADER */
 
 header {
@@ -90,12 +118,126 @@ header nav .navbar-right div button:hover {
   background-color: #30488f;
 }
 
-header nav .navbar-right div button img {
-  width: 15px;
-  transform: translate(-20%, 20%);
+/* MAIN */
+
+main {
+  color: #58402c;
 }
 
-/* MAIN */
+main .container {
+  margin: 0 auto;
+}
+
+main .container button {
+  transition: 0.3s;
+}
+
+main .container button:hover {
+  background-color: #233569;
+}
+
+main .container .first-container-left span {
+  font-weight: 400;
+}
+
+main .container .first-container-left span:hover {
+  cursor: pointer;
+}
+
+main .container .first-container-left span i {
+  padding-left: 5px;
+}
+
+main .container .first-container-left .first-container-left-text h1 {
+  line-height: 60px;
+  font-size: 40px;
+  padding-right: 180px;
+}
+
+main .container .first-container-left .first-container-left-text h3 {
+  font-weight: 500;
+  line-height: 40px;
+  padding: 60px 200px 60px 0;
+}
+
+main .container .first-container-left .first-container-left-buttons {
+  padding-bottom: 30px;
+}
+
+main .container .first-container-left .first-container-left-buttons span {
+  font-weight: 200;
+  font-size: 12px;
+  padding: 0 20px;
+}
+
+main .container button {
+  background-color: #30488f;
+  color: white;
+}
+
+main .first-container-right {
+  width: 80%;
+}
+
+main .first-container-right img {
+  width: 100%;
+  background-size: contain;
+}
+
+main .first {
+  justify-content: space-between;
+}
+
+main .pink-bg {
+  background-color: #ffe7d2;
+}
+
+main .pink-bg .container {
+  flex-direction: column;
+}
+
+main .main-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+}
+
+main .main-text h2 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+main .main-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  padding: 80px 0;
+  margin: 0 auto;
+}
+
+main .main-img .allinea-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 33.3333333333%;
+  text-align: center;
+}
+
+main .main-img .allinea-img img {
+  max-width: 80%;
+  margin-bottom: 20px;
+  max-height: 120px;
+}
+
+main .main-img #img-center img {
+  max-height: none;
+}
 
 /* FOOTER */
 
